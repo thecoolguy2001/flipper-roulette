@@ -1,0 +1,12 @@
+App(
+    appid="russian_roulette",
+    name="Roulette",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="russian_roulette_app",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    fap_version="1.0",
+    fap_description="Revolver Roulette game",
+    fap_icon="roulette_10px.png",
+    fap_category="Games",
+)
